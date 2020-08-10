@@ -1,8 +1,11 @@
 import React from 'react'
+import PageHeader from '../../components/PageHeader'
 
 function ProfForm() {
     return (
-        <h1>Formulário de Professores</h1>
+        <div id="page-prof" className="container">
+            <PageHeader titulo="Seus turmas disponíveis são:" />
+        </div>
     )
 }
 
